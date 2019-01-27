@@ -28,5 +28,13 @@
         android:layout_alignParentBottom="true"
         android:onClick="launchSecondActivity"
         android:text="@string/button_main" />
+    <EditText
+        android:id="@+id/editText_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/button_main"
+        android:layout_toStartOf="@+id/button_main"
+        android:hint="@string/editText_main" />
 
 </RelativeLayout>
